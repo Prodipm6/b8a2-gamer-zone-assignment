@@ -1,0 +1,124 @@
+/* mobile device media query  */
+@media screen and (max-width: 576px) {
+    .nav{
+        flex-direction: column;
+    }
+    .navbar, .nav-item {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .main-section{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 0 100px;
+    }
+    .content-banner{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        align-items: center;
+    }
+    .content h4{
+        margin: 0;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .btn-majenda{
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+    .btn-primary{
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+    .gamer-container{
+        flex-direction: column;
+        margin: 0 80px;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    .gamer-banner img{
+        width: 100%;
+    }
+    .gamer-title{
+        margin: 0;
+    }
+    .online-games-section{
+        margin: 0 80px;
+        align-items: center;
+    }
+    .online-games-container{
+        flex-direction: column;
+    }
+    .online-games-item img{
+        width: 100%;
+    }
+    .play-instant-container{
+        flex-direction: column;
+        margin: 0 80px;
+        gap: 100px;
+    }
+    .play-game-container{
+        flex-direction: column-reverse;
+        margin: 0 80px;
+    }
+    .play-instant-banner img{
+        width: 102%;
+    }
+    .image-badge img{
+        width: 184px;
+        height: 214px;
+        border-radius: 8px;
+        position: relative;
+        bottom: 168px;
+        right: 91px;
+    }
+    .play-game-banner img{
+        width: 100%;
+    }
+    .game-image-badge img{
+        width: 50%;
+        position: relative;
+        left: 200px;
+    }
+    
+   
+
+
+    .career-container{
+        flex-direction: column;
+    }
+    .career-item{
+        margin-left: 110px;
+    }
+    .career-btn{
+        padding: 15px 30px;
+        font-size: 10px;
+    }
+    .career-banner img{
+        width: 100%;
+    }
+
+
+
+
+    .game-item{
+        flex-direction: row;
+    }
+
+
+
+
+        
+}      
+
+
+
